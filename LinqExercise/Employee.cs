@@ -17,6 +17,7 @@ namespace LinqExercise
             }
         }
         public int YearsOfExperience { get; set; }
+        public object Firstname { get; internal set; }
 
         public Employee(string firstName, string lastName, int age, int yearsOfExperience)
         {
